@@ -132,6 +132,14 @@
   --ion-color-fairy-shade: #dfa3cd;
   --ion-color-fairy-tint: #fdc0eb;
 
+   /** psychic**/
+  --ion-color-psychic: #f366b9;
+  --ion-color-psychic-rgb: 243,102,185;
+  --ion-color-psychic-contrast: #ffff;
+  --ion-color-psychic-contrast-rgb: 0,0,0;
+  --ion-color-psychic-shade: #d65aa3;
+  --ion-color-psychic-tint: #f475c0;
+
 }
 
 .ion-color-grass {
@@ -195,6 +203,15 @@
   --ion-color-contrast-rgb: var(--ion-color-fairy-contrast-rgb);
   --ion-color-shade: var(--ion-color-fairy-shade);
   --ion-color-tint: var(--ion-color-fairy-tint);
+}
+
+.ion-color-psychic {
+  --ion-color-base: var(--ion-color-psychic);
+  --ion-color-base-rgb: var(--ion-color-psychic-rgb);
+  --ion-color-contrast: var(--ion-color-psychic-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-psychic-contrast-rgb);
+  --ion-color-shade: var(--ion-color-psychic-shade);
+  --ion-color-tint: var(--ion-color-psychic-tint);
 }
 
 @media (prefers-color-scheme: dark) {
